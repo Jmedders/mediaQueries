@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(135deg, #00FF7F, #2E37FE 20%, #7F00FF) fixed;
+}
+/*@media (max-width: 1300px){*/
+  #navbar {
+    height: 30px;
+    width: 100%;
+    margin-top: -8px;
+    margin-left: 87%;
+  }
+@media(max-width: 1500px){
+  .link {
+    color: white;
+    display: block;
+    padding: 20px;
+    border: 2px solid black;
+    width: 5%;
+    list-style: none;
+  }
+}
+@media(max-width: 900px){
+  #navbar{
+    margin-left: 0%;
+    margin-top: -8px;
+  }
+  .link {
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid black;
+    list-style: none;
+  }
+}
+@media(max-width: 750px){
+  #navbar {
+    margin: 0;
+  }
+  .link {
+    color: white;
+    display: inline-block;
+    position: relative;
+    padding: 50px;
+  }
+}
